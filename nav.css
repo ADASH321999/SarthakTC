@@ -1,3 +1,8 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
 #menu ul
 {
     list-style: none;
@@ -5,16 +10,31 @@
 #menu ul li 
 {
     background-color: black;
-    border: 2px  solid white;
-    width:2px;
+    border: 1px  solid white;
+    width: 269px;
     height:40px;
     text-align: center;
     line-height: 40px;
     float: left;
+    position:relative;
 }
 #menu ul li a
 {
     text-decoration: none;
     color:white;
     display:block;
+}
+#menu ul li a :hover
+{ 
+  background-color: green;
+}
+#menu ul ul 
+{
+    position: absolute;
+    display: none;
+}
+#menu ul li :hover >ul
+{
+    display: block;
+
 }
