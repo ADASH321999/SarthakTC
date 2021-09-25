@@ -6,6 +6,7 @@
 #menu ul
 {
     list-style: none;
+    z-index: 1000;
 }
 #menu ul li 
 {
@@ -43,6 +44,7 @@
     width: 1380px;
     height: 600px;
     overflow:hidden;
+    z-index: -100;
 
 }
 #sliderbox
