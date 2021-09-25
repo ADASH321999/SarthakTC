@@ -11,7 +11,7 @@
 {
     background-color: black;
     border: 1px  solid white;
-    width: 265px;
+    width: 269px;
     height:40px;
     text-align: center;
     line-height: 40px;
@@ -45,16 +45,16 @@
 #sliderbox
 {
     position:relative;
-    width:10240px;
+    width:11040px;
     animation-name:slide; 
-    animation: duration 40s;;
+    animation: duration 40s;
 
 }
 #sliderbox img
 {
   float:left;   
 }
-@keyframes slide
+@keyframes slide 
 {
     0%
     {
@@ -66,40 +66,63 @@
     }
     12.5%
     {
-        left: -1280px;
+        left: -1380px;
     }
     22.5%
     {
-        left:-1280px;
+        left:-1380px;
     }
-    25% 
+    25%
     {
-        left:-2560px;
+        left:-2760px;
+    }
+    35% 
+    {
+        left:-2760px;
     }
     37.5% 
     {
-        left:-3840px;
+        left: -4140px;
     }
-    47.5% 
+    47.5%
     {
-        left: -5120px;
+        left: -4140px;
     }
     50%
     {
-        left: -6400px;
+        left: -5520px;
+    }
+    60%
+    {
+        left: -5520px;
+    }
+    62.5%
+    {
+        left: -6900px;
+    }
+    72.5%
+    {
+        left:-6900px;
     }
     75%
     {
-        left: -7680px;
+        left:-8100px;
     }
-    95%
+    85%
     {
-        left: -8960px;
+        left:-8100px;
+    }
+    87.5%
+    {
+       left: -9660px;  
+    }
+    97.5% 
+    {
+       left: -9660px;
     }
     100%
     {
-        left: -10240px;
+        left: -11040px;
     }
-
 
 }
