@@ -11,7 +11,7 @@
 {
     background-color: black;
     border: 1px  solid white;
-    width: 269px;
+    width: 265px;
     height:40px;
     text-align: center;
     line-height: 40px;
@@ -36,5 +36,70 @@
 #menu ul li:hover >ul
 {
     display: block;
+
+}
+#outerbox
+{
+
+}
+#sliderbox
+{
+    position:relative;
+    width:10240px;
+    animation-name:slide; 
+    animation: duration 40s;;
+
+}
+#sliderbox img
+{
+  float:left;   
+}
+@keyframes slide
+{
+    0%
+    {
+        left:0px;
+    }
+    10% 
+    {
+        left:0px;
+    }
+    12.5%
+    {
+        left: -1280px;
+    }
+    22.5%
+    {
+        left:-1280px;
+    }
+    25% 
+    {
+        left:-2560px;
+    }
+    37.5% 
+    {
+        left:-3840px;
+    }
+    47.5% 
+    {
+        left: -5120px;
+    }
+    50%
+    {
+        left: -6400px;
+    }
+    75%
+    {
+        left: -7680px;
+    }
+    95%
+    {
+        left: -8960px;
+    }
+    100%
+    {
+        left: -10240px;
+    }
+
 
 }
