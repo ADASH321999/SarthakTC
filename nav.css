@@ -24,7 +24,7 @@
     color:white;
     display:block;
 }
-#menu ul li a :hover
+#menu ul li a:hover
 { 
   background-color: green;
 }
@@ -33,7 +33,7 @@
     position: absolute;
     display: none;
 }
-#menu ul li :hover >ul
+#menu ul li:hover >ul
 {
     display: block;
 
