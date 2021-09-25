@@ -1,13 +1,13 @@
 .top_cat
 {
-    border:0px solid black;
+    border:1px solid black;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
 
 
 }
-.top_cat
+.top_cat_pro
 {
     border:2px solid red; 
     float:left;
