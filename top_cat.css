@@ -21,3 +21,20 @@
     width:360px;
     height:240px;
 }
+.checked
+{
+    color:orange;
+}
+.starr
+{
+    border: 2px white;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title p
+{
+   text-align: center;
+}
