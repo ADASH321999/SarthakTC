@@ -12,7 +12,12 @@
     border:2px solid black; 
     float:left;
     width:360px;
-    height:240px;
+    height:260px;
     margin-top: 20px;
     margin-bottom:20px;
+}
+.top_cat_pro img
+{
+    width:360px;
+    height:240px;
 }
