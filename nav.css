@@ -11,7 +11,7 @@
 {
     background-color: black;
     border: 1px  solid white;
-    width: 269px;
+    width: 267px;
     height:40px;
     text-align: center;
     line-height: 40px;
@@ -40,14 +40,18 @@
 }
 #outerbox
 {
+    width: 1380px;
+    height: 600px;
+    overflow:hidden;
 
 }
 #sliderbox
 {
     position:relative;
-    width:11040px;
+    width:8280px;
     animation-name:slide; 
-    animation: duration 40s;
+    animation-duration:30s;
+    animation-iteration-count: infinite;
 
 }
 #sliderbox img
@@ -60,69 +64,53 @@
     {
         left:0px;
     }
-    10% 
+    13.34%
     {
         left:0px;
     }
-    12.5%
+    16.67%
     {
         left: -1380px;
     }
-    22.5%
+    30%
     {
         left:-1380px;
     }
-    25%
+    33.33%
     {
         left:-2760px;
     }
-    35% 
+    46.67%
     {
         left:-2760px;
     }
-    37.5% 
+    50% 
     {
         left: -4140px;
     }
-    47.5%
+    63.34% 
     {
         left: -4140px;
     }
-    50%
+    66.67%
     {
         left: -5520px;
     }
-    60%
+    80%
     {
         left: -5520px;
     }
-    62.5%
+    83.34%
     {
         left: -6900px;
     }
-    72.5%
+    96.67% 
     {
         left:-6900px;
     }
-    75%
-    {
-        left:-8100px;
-    }
-    85%
-    {
-        left:-8100px;
-    }
-    87.5%
-    {
-       left: -9660px;  
-    }
-    97.5% 
-    {
-       left: -9660px;
-    }
     100%
     {
-        left: -11040px;
+        left:-8280px;
     }
 
 }
