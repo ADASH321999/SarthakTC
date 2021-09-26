@@ -1,0 +1,19 @@
+.footer
+{
+    height: 200px;
+    width:100%;
+    border: 2px black;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+    
+}
+.footerb
+{
+    height:180px;
+    width: 250px;
+    float:left;
+    color: cornsilk;
+    align-items: center;
+}
