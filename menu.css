@@ -1,0 +1,46 @@
+.top_cat
+{
+    border:0px solid black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+
+}
+.top_cat_pro
+{
+    border:2px solid black; 
+    float:left;
+    width:360px;
+    height:300px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,4), 0 6px 20px 0 rgba(0, 0 ,0 ,0.35);
+    transition: transform 0.5s;
+}
+.top_cat_pro:hover
+{
+    transform: scale(1.05);
+}
+.top_cat_pro img
+{
+    width:360px;
+    height:240px;
+}
+.checked
+{
+    color:orange;
+}
+.starr
+{
+    border: 2px white;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title p
+{
+   text-align: center;
+}
