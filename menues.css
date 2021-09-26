@@ -1,4 +1,4 @@
-.top_cat
+.menues
 {
     border:0px solid black;
     display: flex;
@@ -7,7 +7,7 @@
 
 
 }
-.top_cat_pro
+.menuesb
 {
     border:2px solid black; 
     float:left;
@@ -18,11 +18,11 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,4), 0 6px 20px 0 rgba(0, 0 ,0 ,0.35);
     transition: transform 0.5s;
 }
-.top_cat_pro:hover
+.menuesb:hover
 {
     transform: scale(1.05);
 }
-.top_cat_pro img
+.menuesb img
 {
     width:360px;
     height:240px;
