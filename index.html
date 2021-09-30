@@ -1,6 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Loader</title>
+         <script>
+                window.onload=function()
+               {
+                  document.getElementById('loader').style.display="none";
+                  document.getElementById('content').style.display="block";
+                }
+
+          </script>
+       <style>
+          #loader
+          {
+            position:absolute;
+            margin:auto;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            width:600px;
+            height:600px;
+
+            
+
+          }
+          #loader img
+          {
+             width:600px;
+                  
+
+          }
+          #content
+          {
+            display:none;
+          }
+          
+
+        </style>
+      </head>  
+  <head>
+    <link rel="stylesheet" href="preloader.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="top_cat.css">
     <link rel="stylesheet" href="Slider.css">
@@ -10,8 +50,13 @@
      <title>Sarthak Tiffin Center</title>
 
 </head>
+
 <body>
-    <div id ="menu">
+  <div id="loader"> 
+      <img src="Images/preloader.gif" >
+  </div>
+    <div id =content>
+     <div id ="menu">
         <ul>
             
           <li><a href="index.html">Home</a></li>
@@ -196,5 +241,7 @@
                         
 
                     </div>
+                </div>
+    
 </body>
 </html>

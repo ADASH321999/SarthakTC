@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Loader</title>
+         <script>
+                window.onload=function()
+               {
+                  document.getElementById('loader').style.display="none";
+                  document.getElementById('content').style.display="block";
+                }
+
+          </script>
+    <link rel="stylesheet" href="preloader.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="order.css">
@@ -15,6 +25,10 @@
 </head>
 <body>
     <div id ="menu">
+      <div id="loader"> 
+        <img src="Images/preloader.gif" >
+     </div>
+      <div id =content>
         <ul>
             
           <li><a href="index.html">Home</a></li>
@@ -171,3 +185,7 @@
         
 
     </div>
+
+  </div>
+</body>
+</html>
