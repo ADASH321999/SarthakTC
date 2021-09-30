@@ -7,6 +7,9 @@
 {
     list-style: none;
     z-index: 1000;
+    display:flex;
+    width:100%;
+
 }
 #menu ul li 
 {
@@ -39,3 +42,13 @@
     display: block;
 
 }
+@media(max-width:747px)
+ {
+     ul
+     {
+         display:table;
+         
+         
+         
+     }
+ }
