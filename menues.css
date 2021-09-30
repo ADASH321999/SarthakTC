@@ -17,6 +17,7 @@
     margin-bottom:20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,4), 0 6px 20px 0 rgba(0, 0 ,0 ,0.35);
     transition: transform 0.5s;
+    border-radius: 20px;
 }
 .menuesb:hover
 {
@@ -26,6 +27,7 @@
 {
     width:360px;
     height:240px;
+    border-radius: 20px;
 }
 .checked
 {
@@ -44,13 +46,26 @@
 {
    text-align: center;
 }
-.button
+.btn
 {
-    background-color:orange;
-    color:black;
+    border: 2px green;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
 }
-.button :hover
+.btn input
+{   
+    height: 50px;
+    width: 180px;
+    background-color:orange;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,4), 0 6px 20px 0 rgba(0, 0 ,0 ,0.35);
+    border-radius: 7px;
+    font-size:  25px;;
+}
+.btn input:hover
 {
-    background-color:green;
+    background-color: green ;
     color:white;
 }
