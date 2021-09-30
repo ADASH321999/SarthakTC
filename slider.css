@@ -1,0 +1,77 @@
+#outerbox
+{
+    width: 1335px;
+    
+    overflow:hidden;
+    z-index: -100;
+
+}
+#sliderbox
+{
+    position:relative;
+    width: 8010px;
+    animation-name:slide; 
+    animation-duration:30s;
+    animation-iteration-count: infinite;
+
+}
+#sliderbox img
+{
+  float:left;   
+}
+@keyframes slide 
+{
+    0%
+    {
+        left:0px;
+    }
+    13.34%
+    {
+        left:0px;
+    }
+    16.67%
+    {
+        left: -1335px;
+    }
+    30%
+    {
+        left:-1335px;
+    }
+    33.33%
+    {
+        left:-2670px;
+    }
+    46.67%
+    {
+        left:-2670px;
+    }
+    50% 
+    {
+        left: -4005px;
+    }
+    63.34% 
+    {
+        left: -4005px;
+    }
+    66.67%
+    {
+        left: -5340px;
+    }
+    80%
+    {
+        left: -5340px;
+    }
+    83.34%
+    {
+        left: -6675px;
+    }
+    99.999% 
+    {
+        left:-6675px;
+    }
+    100%
+    {
+        left:-8010px;
+    }
+
+}
