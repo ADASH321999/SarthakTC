@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <title>Sarthak Tiffin Center</title>
+          <script src="jquery-3.6.0.min.js"></script>
          <script>
                 window.onload=function()
                {
@@ -41,10 +42,10 @@
 
         </style>
 
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
   
-    
-
+     
+    <link rel="stylesheet" href="New.Css">
     <link rel="stylesheet" href="preloader.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="top_cat.css">
@@ -61,33 +62,38 @@
       <img src="Images/preloader.gif" >
    </div>
     <div id =content>
-     <div id ="menu">
+     <div>
         <ul>
             
           <li><a href="index.html">Home</a></li>
           <li><a href="hostel.html">Hostel Facilities</a></li>
-          <li><a href="menues.html">Menu</a>
-             <ul> 
-               <li><a href="#"> Veg Thali</a></li>
-               <li><a href="#"> Special Veg Thali</a></li>
-               <li><a href="#"> Veg Pulao</a></li>
-               <li><a href="#"> Aloo ka Pratha</a></li>
-               <li><a href="#"> Gobhi ka Pratha</a></li>
-               <li><a href="#"> Panner ka Pratha</a></li>
-               <li><a href="#"> Butter Pratha</a></li>
-               <li><a href="#"> Shai Panner</a></li>
-               <li><a href="#"> 1/2 kilo pulao </a></li>
-               <li><a href="#"> Sweets </a></li>
-             </ul>
-           
-          </li>
+          <li><a href="menues.html" class="dropbtn">Menu </a>  
+             <ul class="dropdown"> 
+                <li><a href="order.html"> Veg Thali</a></li>
+                <li><a href="order.html"> Special Veg Thali</a></li>
+                <li><a href="order.html"> Veg Pulao</a></li>
+                <li><a href="order.html"> Aloo ka Pratha</a></li>
+                <li><a href="order.html"> Gobhi ka Pratha</a></li>
+                <li><a href="order.html"> Panner ka Pratha</a></li>
+                <li><a href="order.html"> Butter Pratha</a></li>
+                <li><a href="order.html"> Sweets </a>
+                   <ul class="subdropdown"> 
+                     <li><a href="order.html"> Nan Khati</a></li>
+                     <li><a href="order.html"> Gulab Jamun </a></li>
+                     <li><a href="order.html"> Nareel Ka Ladoo</a></li>
+                   </ul>
+                </li>
+                <li><a href="order.html"> Shai Panner</a></li>
+                <li><a href="order.html"> 1/2 kilo pulao </a></li>
+              </ul>
+          </li> 
+        
           <li><a href="order.html">Order</a></li>
           <li><a href="Payment.html">Payment</a></li>
         </ul>
     </div>
     <br>
-    <br>
-    <br>
+
     
       
      <div id ="outerbox">
@@ -247,6 +253,15 @@
 
                     </div>
                 </div>
+
+                                 <script>
+                                    $(".dropbtn").click(function()
+                                    {
+                                      $(".dropdown").toggleClass('display')
+                                    }
+                                    )
+
+                                 </script>
     
   </body>
 </html>
