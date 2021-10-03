@@ -27,6 +27,10 @@ ul li a
     display:block;
 
 }
+ul li a:hover
+{ 
+  background-color: green;
+}
 .dropdown
 {
     position:absolute;
@@ -82,8 +86,9 @@ ul li:hover .dropdown
         display:none;
         visibility:visible;
         z-index: -1000;
-
     }
+   
+    
     .display
     {
       display:block;

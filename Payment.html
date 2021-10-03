@@ -1,158 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Sarthak Tiffin Center</title>
+          <script src="jquery-3.6.0.min.js"></script>
+         <script>
+                window.onload=function()
+               {
+                  document.getElementById('loader').style.display="none";
+                  document.getElementById('content').style.display="block";
+                }
+
+          </script>
+       <style>
+          #loader
+          {
+            position:absolute;
+            margin:auto;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            width:600px;
+            height:600px;
+
+            
+
+          }
+          #loader img
+          {
+             width:600px;
+                  
+
+          }
+          #content
+          {
+            display:none;
+          }
+          
+
+        </style>
+
+     
+  
+    <link rel="stylesheet" href="Payment.css">
+    <link rel="stylesheet" href="New.Css">
+    <link rel="stylesheet" href="preloader.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="top_cat.css">
     <link rel="stylesheet" href="Slider.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon"href="Images/Icon.ico" type ="image/ico" size="16*16">
-     
      <title>Sarthak Tiffin Center</title>
-     <title>Loader</title>
-     <script>
-            window.onload=function()
-           {
-              document.getElementById('loader').style.display="none";
-              document.getElementById('content').style.display="block";
-            }
 
-      </script>
+ </head>
 
-</head>
-<body>
-  <div id="loader"> 
-     <img src="Images/preloader.gif" >
-  </div>
-   <div id =content>
-    <div>
-       <ul>
-           
-         <li><a href="index.html">Home</a></li>
-         <li><a href="hostel.html">Hostel Facilities</a></li>
-         <li><a href="menues.html">Menu </a>  
-            <ul class="dropdown"> 
-               <li><a href="order.html"> Veg Thali</a></li>
-               <li><a href="order.html"> Special Veg Thali</a></li>
-               <li><a href="order.html"> Veg Pulao</a></li>
-               <li><a href="order.html"> Aloo ka Pratha</a></li>
-               <li><a href="order.html"> Gobhi ka Pratha</a></li>
-               <li><a href="order.html"> Panner ka Pratha</a></li>
-               <li><a href="order.html"> Butter Pratha</a></li>
-               <li><a href="order.html"> Sweets </a>
-                  <ul class="subdropdown"> 
-                     <li><a href="order.html"> Nan Khati</a></li>
-                    <li><a href="order.html"> Gulab Jamun </a></li>
-                    <li><a href="order.html"> Nareel Ka Ladoo</a></li>
-                  </ul>
-               </li>
-               <li><a href="order.html"> Shai Panner</a></li>
-               <li><a href="order.html"> 1/2 kilo pulao </a></li>
-             </ul>
-         </li> 
-       
-          <li><a href="order.html">Order</a></li>
-          <li><a href="Payment.html">Payment</a></li>
-       </ul>
-   </div>
-   <br>
-     <h1 align=center>Ways to Pay Us</h1>
-     <div class="pay"></div>
-     <div class="paybox"><img src="Images/Payment1.jpeg">
-      
-      <form> 
 
-         <center>  
-           <table width=60% >
-              <tr>
-                 <td width =20%><b>Please Enter Your UTR No. to verify our Payment:</b>:</td>
-                 <td width =40% ><input type="text" placeholder="Name"></td>
-                 
-               
-                
+ <body>
+    <div id="loader"> 
+       <img src="Images/preloader.gif" >
+    </div>
+      <div id ="content">
+        <div>
+          <ul>
               
-                
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hostel.html">Hostel Facilities</a></li>
+            <li><a href="menues.html">Menu </a>  
+               <ul class="dropdown"> 
+                  <li><a href="order.html"> Veg Thali</a></li>
+                  <li><a href="order.html"> Special Veg Thali</a></li>
+                  <li><a href="order.html"> Veg Pulao</a></li>
+                  <li><a href="order.html"> Aloo ka Pratha</a></li>
+                  <li><a href="order.html"> Gobhi ka Pratha</a></li>
+                  <li><a href="order.html"> Panner ka Pratha</a></li>
+                  <li><a href="order.html"> Butter Pratha</a></li>
+                  <li><a href="order.html"> Sweets </a>
+                     <ul class="subdropdown"> 
+                       <li><a href="order.html"> Nan Khati</a></li>
+                       <li><a href="order.html"> Gulab Jamun </a></li>
+                       <li><a href="order.html"> Nareel Ka Ladoo</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="order.html"> Shai Panner</a></li>
+                  <li><a href="order.html"> 1/2 kilo pulao </a></li>
+                </ul>
+            </li> 
+          
+            <li><a href="order.html">Order</a></li>
+            <li><a href="Payment.html">Payment</a></li>
+          </ul>
+        </div>
+        <br>
+        <h1 align="center"><b>Ways to Pay Us</b></h1>
+        <h4 align="center" color="green"> <b >(After Payment Please Submit UTR No. for Order Confirmation)</b></h4>
+       <br>
+       <br>
+       <h2 align ="Center"> Enter Details of Order</h2>
+       <br>
+       <br>
+       <div>
+        <form> 
+
+          <center>  
+            <table width=80% >
+               <tr>
+                  <td width =40%><h1><b>Please Enter UTR No to confirm your Payment for the Order:</b></h1>
+                    <br>
+                    <a></a>
+                  </td>
+                  <td width =40% ><input type="text" placeholder="UTR No."></td>
                   
-                   
-                 
-                 <td>    </td>       
-                 <td ><a href="Payment.html"><input type="button" value ="Confirm Payment"></a></tb>
-                   
-                
-                   
-
                 </tr>
-               
-               
+                <td>    </td>       
+                  <td ><a href="index.html"><input type="button" value ="Confirm"></a></tb>
+                    
+                 
+                    
 
-           </table>
-         </center> 
-       </form> 
+                 </tr>
+                
+                
+
+            </table>
+          </center> 
+        </form> 
+            
+        
+
+       </div>  
+          <div class="pay">
+             
+             <div class="payb"><img src="Images/Payment1.jpeg">
+                          
+                 <div class="title">
+                 <p> <b>Phonepe QR Code</b></p>
+               </div>
+            </div>
+            <div class="payb"><img src="Images/Payment2.jpeg"> 
+              <div class="title">
+               <p> <b>Google pay QR Code</b></p>
+              </div>
+            </div>  
+          </div>
+          <div >
+            <div align="center", class="UPI">
+                 <h1> <b> UPI ID's For Payment</b>
+                    <h2>Paytm UPI ID:966406955710@paytm</h2>
+                    <h2>Phonepe UPI ID:7415743725@ybl</h2>
+                    <h2>Google Pay UPI ID:adarshrai3219999@okaxis</h2>
+                 </h1>
+           </div>
+          
            
-       
+
+
 
       </div>
-      <br>
-      <div class="footer">
-       <div class="footerb">
-        <b>Quick Links</b> 
-        <br><br>
-        Home
-        <br>
-        Hostel Facilities
-        <br>
-        MENU 
-        <br>
-        Order   
-        <br>
-        Contact 
-        <br>
-       </div>
-       <div class="footerb">
-         <b>MENU</b> 
-         <br><br>
-         Special Veg Thali(₹180)
-         <br>
-         Gulab Jammun(₹10/pc)
-         <br>
-         Nan Khati(₹10/pc)
-         <br>
-         Aloo ka Paratha(₹35/pc)
-         <br>
-         Veg Pulao(₹70)
-         <br>
-         Nareal ka laddo(₹10/pc}
-        </div>
-         <div class="footerb">
-         <b>Address And CONTACT No.</b>
-         <br>
-         <br>
-         Address:Behind NIIT training Institute, 
-         Rajpal Chowk, near Mahagauri Dham Mandir, 
-         Chhindwara, Madhya Pradesh 480001
-         <br>
-         <br>
-         Contact No: (+91)8103561002
-         </div>
-         
+    </div>
 
-       <div class="footerb">
-         <b>Directions</b>
-         <br>
-         <br>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.9350458217477!2d78.93916911426386!3d22.052080057433397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd5695fb5a7cb2b%3A0x67bfbf2d84294860!2sSARTHAK%20Hostel!5e0!3m2!1sen!2sin!4v1632639797299!5m2!1sen!2sin" 
-         width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-       </div>
-       
-
-   </div>
-
- </div>
-         
-         
-    
-</body>
-</html>
+ </body>
+ </html>
