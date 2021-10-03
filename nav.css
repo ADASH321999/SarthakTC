@@ -17,6 +17,7 @@ ul li
     text-align: center;
     width:100%;
     position:relative;
+    
 }
 ul li a
 {
@@ -62,6 +63,7 @@ ul li:hover .dropdown
  
     visibility:visible; 
     
+    
 }
 @media only screen and (max-width:787px)
 {
@@ -69,29 +71,34 @@ ul li:hover .dropdown
     {
         display:table;
         width:100%;
+        
     }
     ul li 
     {
         text-align: left;
-
-
     }
-    ul li ul
+    
+
+     .dropdown ,.subdropdown
     {
-        display:table;
         position:relative;
         left:0;
         top:0;
         transition:none;
         display:none;
         visibility:visible;
-        z-index: -1000;
+        z-index: 1000;
+       
     }
-   
-    
     .display
     {
       display:block;
-    };
+    }
+    .dropdown li:hover .subdropdown
+    {
+
+        left:0;
+        
+    }
 
 }
