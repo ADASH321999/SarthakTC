@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hostel</title>
+  <script src="jquery-3.6.0.min.js"></script>
+  <title>Home</title>
          <script>
                 window.onload=function()
                {
@@ -26,6 +26,7 @@
 
 </head>
 <body>
+  
   <div id="loader"> 
      <img src="Images/preloader.gif" >
   </div>
@@ -35,7 +36,7 @@
            
          <li><a href="index.html">Home</a></li>
          <li><a href="hostel.html">Hostel Facilities</a></li>
-         <li><a href="menues.html">Menu </a>  
+         <li><a href="#" class="dropbtn">Menu </a>  
             <ul class="dropdown"> 
                <li><a href="order.html"> Veg Thali</a></li>
                <li><a href="order.html"> Special Veg Thali</a></li>
@@ -44,7 +45,7 @@
                <li><a href="order.html"> Gobhi ka Pratha</a></li>
                <li><a href="order.html"> Panner ka Pratha</a></li>
                <li><a href="order.html"> Butter Pratha</a></li>
-               <li><a href="order.html"> Sweets </a>
+               <li><a href="#"> Sweets </a>
                   <ul class="subdropdown"> 
                     <li><a href="order.html"> Nan Khati</a></li>
                     <li><a href="order.html"> Gulab Jamun </a></li>
@@ -59,6 +60,20 @@
          <li><a href="order.html">Order</a></li>
          <li><a href="Payment.html">Payment</a></li>
        </ul>
+        <script>    
+              $('.drobpbtn').click(function()
+        {
+                 $('.dropdown').toggleClass('display');
+                 $('.dropdown').removeClass('display');
+                 
+        })
+              $('.drobpbtn2').click(function()
+        {
+                 $('.subdropdown').toggleClass('display');
+                 $('.subdropdown').removeClass('display');
+                 
+        })
+        </script>
    </div>
    <br>
     <br>

@@ -77,28 +77,15 @@ ul li:hover .dropdown
     {
         text-align: left;
     }
-    
-
-     .dropdown ,.subdropdown
+    ul li ul
     {
-        position:relative;
-        left:0;
-        top:0;
-        transition:none;
-        display:none;
-        visibility:visible;
-        z-index: 1000;
-       
+        display:table;
+        width:100%;
+
     }
+    
     .display
     {
-      display:block;
+        display:block;
     }
-    .dropdown li:hover .subdropdown
-    {
-
-        left:0;
-        
-    }
-
 }
